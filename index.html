@@ -856,12 +856,12 @@
                         },
 
                         createDplayer: (video, type, elem) => {
-                            const host = '//s0.pstatp.com/cdn/expire-1-M';
+                            const host = 'https://cdn.jsdelivr.net/gh/ymh1146/ceio/';
                             const resources = [
-                                '/dplayer/1.25.0/DPlayer.min.css',
-                                '/dplayer/1.25.0/DPlayer.min.js',
-                                '/hls.js/0.12.4/hls.light.min.js',
-                                '/flv.js/1.5.0/flv.min.js'
+                                '/DPlayer.min.css',
+                                '/dplayer.js',
+                                '/hls.min.js',
+                                '/flv.min.js'
                             ];
                             let unloadedResourceCount = resources.length;
                             resources.forEach(resource => {
